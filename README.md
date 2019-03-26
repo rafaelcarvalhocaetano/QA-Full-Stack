@@ -5,5 +5,5 @@ CMD:
 
 ### Comando para Gerar Relatórios em HTML e XML
 
-``` rspec --formt html --out report.html ```
-``` rspec --form RspecJunitFormatter --out report.xml ```
+- ``` rspec --formt html --out report.html ```
+- ``` rspec --form RspecJunitFormatter --out report.xml ```
