@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="21" skipped="0" failures="1" errors="0" time="0.063662" timestamp="2019-03-26T17:40:55-03:00" hostname="VF-WEB-LT-164">
+<properties>
+<property name="seed" value="9186"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.002986"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.005967"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.003979"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter primeiro da lista" file="./spec/avengers_spec.rb" time="0.005968"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter ironman deve ser o ultimo da lista" file="./spec/avengers_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerHeaderQuarter verifica sobre nome" file="./spec/avengers_spec.rb" time="0.001990"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor é positivo então atualiza saldo" file="./spec/bank/saque_cc_spec.rb" time="0.033861"><failure message="
+expected: 798.0
+     got: 795.0
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@cc.saldo).to eql 798.00
+
+  expected: 798.0
+       got: 795.0
+
+  (compared using eql?)
+./spec/bank/saque_cc_spec.rb:13:in `block (4 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero veja mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero meu saldo permanece com zeros" file="./spec/bank/saque_cc_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando é insuficiente vejo mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000955"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando é insuficiente meu saldo permanece conforme o valor inicial" file="./spec/bank/saque_cc_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor do saque é maior que o limite por transação vejo mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor do saque é maior que o limite por transação meu saldo permanece conforme o valor inicial" file="./spec/bank/saque_cc_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor é positivo então atualiza saldo" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero veja mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero meu saldo permanece com zeros" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando é insuficiente vejo mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando é insuficiente meu saldo permanece conforme o valor inicial" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor do saque é maior que o limite por transação vejo mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000995"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor do saque é maior que o limite por transação meu saldo permanece conforme o valor inicial" file="./spec/bank/saque_cp_spec.rb" time="0.000000"></testcase>
+<testcase classname="spec.exemplo_spec" name="exemplo rspec soma de valores " file="./spec/exemplo_spec.rb" time="0.000000"></testcase>
+</testsuite>
