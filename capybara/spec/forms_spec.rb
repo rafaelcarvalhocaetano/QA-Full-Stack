@@ -25,4 +25,16 @@ describe 'Forms' do
 
     end
 
+    it 'usuário não cadastrado' do
+        visit 'https://training-wheels-protocol.herokuapp.com/login'
+
+        fill_in 'username', with: 'stark'
+        fill_in 'password', with: 'jarvis!'
+        click_button 'Login'
+
+        expect(find('#flash').visible?).to be true
+        expect(find('#flash').text).to include 'O usuário informado não está cadastrado!'
+
+    end
+
 end
