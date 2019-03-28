@@ -1,0 +1,14 @@
+    // if (this.id) {
+    //   const data = this.selectedTA.ThirdPartyIntermediaryPaymentTypes.GuaranteeTypes;
+    //   const listTypes: any [] = [];
+    //   this.listGT.forEach((x: any, i: number) => {
+    //     data.forEach((j: any) => {
+    //       if (j.Key === x.GuaranteeType_UID) {
+    //         listTypes[i] = new FormControl(true);
+    //       } else {
+    //         listTypes[i] = new FormControl(false);
+    //       }
+    //     });
+    //   });
+    //   return this.formBuilder.array(listTypes);
+    // } else {}

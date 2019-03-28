@@ -19,4 +19,6 @@ end
 Capybara.configure do |config|
   # default é o firefox
   config.default_driver = :selenium_chrome
+  # tempo de execução do capybara
+  config.default_max_wait_time = 5
 end
