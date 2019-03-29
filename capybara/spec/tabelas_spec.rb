@@ -2,6 +2,8 @@ describe 'Tabelas', :tbl do
 
     before(:each) do
         visit '/tables'
+        # recurso do capybara
+        # page.current_window.resize_to(1280, 800)
     end
 
     # it 'Pega o tony stark na lista' do
