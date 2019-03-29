@@ -97,8 +97,9 @@ expect(string).not_to start_with("ninja")
 expect(string).to end_with("ninja")
 expect(string).not_to end_with("qa")
 
-#----------------------------------------------------------------------------------------------------------#
-Estória de Usuário
+#-----------------#
+
+História de Usuário
 
 
 Qualidade de Software começa na especificação
