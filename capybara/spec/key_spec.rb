@@ -1,6 +1,6 @@
 describe 'key', :teclado do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/key_presses'
+        visit '/key_presses'
     end
 
     it 'enviando do teclado' do

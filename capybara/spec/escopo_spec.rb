@@ -3,7 +3,7 @@ describe 'Escopo' do
     # escopo do capybara
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/access'
+        visit '/access'
     end
 
     it 'Escopo - login id dinamicos', :escopo do

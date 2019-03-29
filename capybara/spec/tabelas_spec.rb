@@ -1,7 +1,7 @@
 describe 'Tabelas', :tbl do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/tables'
+        visit '/tables'
     end
 
     # it 'Pega o tony stark na lista' do
