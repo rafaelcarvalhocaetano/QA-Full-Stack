@@ -16,17 +16,22 @@ RSpec.configure do |config|
   config.include Capybara::DSL
 
   #configuração para tamanho de tela com capybara
-  config.before(:exemplo) do
+  config.before(:example) do
     page.current_window.resize_to(1280, 800)
+  end
+
+  config.after(:example) do |a|
+    nome = a.description.gsub(/[^A-Za-z0-9 ]/, '').tr(' ', '_')
+    page.save_screenshot('log/' + nome + '.png')
   end
 end
 
 Capybara.configure do |config|
-  # default é o firefox
-  config.default_driver = :selenium_chrome
-  # tempo de execução do capybara
+  # default e o firefox
+  # com o headless o navegador não abre
+  config.default_driver = :selenium_chrome_headless
+  # tempo de execucao do capybara
   config.default_max_wait_time = 5
 
   config.app_host = 'https://training-wheels-protocol.herokuapp.com'
-
 end
