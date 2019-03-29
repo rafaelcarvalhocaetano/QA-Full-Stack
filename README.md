@@ -7,3 +7,5 @@ CMD:
 
 - ``` rspec --formt html --out report.html ```
 - ``` rspec --form RspecJunitFormatter --out report.xml ```
+
+### Criando cenário de teste com Cucumber
