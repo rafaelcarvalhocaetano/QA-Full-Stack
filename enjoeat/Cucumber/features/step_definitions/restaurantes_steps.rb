@@ -5,7 +5,6 @@ Quando("acesso a lista de restaurantes") do
         {name: 'Bread & Bakery', category: 'Padaria', delivery_time: '25 minutos', rating: 4.9},
         {name: 'Burger House', category: 'Hamburgers', delivery_time: '30 minutos', rating: 3.5},
         {name: 'Coffee Corner', category: 'Cafeteria', delivery_time: '20 minutos', rating: 4.8}
-        # {name: 'Bread & Bakey', category: 'Padaria', delivery_time: '25 minutos', rating: 4.9}
     ]
 end
 
