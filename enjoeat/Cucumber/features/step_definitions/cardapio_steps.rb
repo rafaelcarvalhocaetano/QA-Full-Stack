@@ -17,10 +17,9 @@ Então("vejo os seguintes itens disponíveis no cardápio") do |table|
 end
 
 Então("eu vejo as seguintes informacoes adicionais:") do |table|
-   infos = puts table.rows_hash
-   details = find('#detail')
-   expect(details).to have_text infos['categoria']
-   expect(details).to have_text infos['descricao']
-   expect(details).to have_text infos['horario']
-
+    infos = puts table.rows_hash
+    details = find('#detail')
+    expect(details).to have_text infos['categoria']
+    expect(details).to have_text infos['descricao']
+    expect(details).to have_text infos['horario']
 end

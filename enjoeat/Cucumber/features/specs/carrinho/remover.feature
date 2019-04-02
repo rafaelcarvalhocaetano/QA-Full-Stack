@@ -1,4 +1,4 @@
-#language: pr
+#language: pt
 
 Funcionalidade: Remover do carrinho
     Para que eu possa atualizar meu carrinho apensa com items desejados
